@@ -1,0 +1,259 @@
+/* Reset box sizing to avoid layout issues */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* define width variable */
+:root {
+  --width: 1000px;
+  --dartmouth-green: #004830;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  font-family: "Playfair Display SC", serif;
+}
+
+.text {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  color: rgb(42, 42, 42) ;
+  font-weight: 300;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#f9f9f9;
+  /* use the width variable*/
+  width: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+
+}
+
+.navbar-header {
+  
+  padding-left: 3px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -7px;
+  color: #004830;
+
+  text-decoration: underline;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  margin-left: -15px;
+  height: 70px;
+  width: auto;
+}
+
+.navbar-menu {
+  margin-top: -7px;
+  list-style: none; 
+  display: flex;  
+}
+
+.navbar-menu li {
+  margin-left: 1.1rem; 
+}
+
+.navbar-menu li a {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 4px;
+  font-weight: 500;
+  font-size: 17px;
+  transition: color 0.2s ease-in-out;
+  opacity: 0.8;
+}
+
+#overview-button {
+  text-decoration: underline;
+  opacity: 1;
+  text-underline-offset: 4px;
+}
+
+.navbar-menu li a:hover {
+  /* text-underline-offset: 4px; */
+}
+
+.structure-overview-list {
+  margin-left: 50px;
+  line-height: 30px;
+}
+
+.slideshow-container {
+  overflow: hidden;
+  width: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+  height: 500px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .95;
+}
+
+.overview {
+  
+  justify-content: space-between;
+  width: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+}
+
+
+.overview p {
+  margin-top: 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Footer content layout */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links li a img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.information {
+  width: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+}
+
+.information p {
+  margin-top: 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+/* 
+section {
+  margin: 40px 0;
+}
+
+header {
+  background-color: var(--dartmouth-green);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 0 20px;
+}
+
+main {
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid var(--dartmouth-green);
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+  color: var(--dartmouth-green);
+}
+
+.team-member p {
+  margin: 0;
+  font-size: 1em;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--dartmouth-green);
+  color: white;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+ */
