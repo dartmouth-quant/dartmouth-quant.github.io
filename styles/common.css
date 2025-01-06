@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+  --width: 1000px;
+  --dartmouth-green: #004830;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: "Playfair Display SC", serif;
+}
+
+.text {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  color: rgb(42, 42, 42);
+  font-weight: 300;
+}
+
+#active-button {
+  text-decoration: underline;
+  opacity: 1;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  width: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+}
+
+.section {
+  width: var(--width);
+  margin-left: calc(50% - var(--width) / 2);
+}
+
+.navbar-header {
+  padding-left: 3px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -7px;
+  color: #004830;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  margin-left: -15px;
+  height: 70px;
+  width: auto;
+}
+
+.navbar-menu {
+  margin-top: -7px;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-left: 1.1rem;
+}
+
+.navbar-menu li a {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 4px;
+  font-weight: 500;
+  font-size: 17px;
+  transition: color 0.2s ease-in-out;
+  opacity: 0.8;
+}
+
+hr {
+  background-color: #004830;
+  border: none;
+  height: 2px;
+  opacity: .7;
+
+}
+
+.top-line {
+  margin-bottom: 15px;
+}
+
+.bottom-line {
+  margin-top: 17px;
+}
+
+.section-header {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links li a img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
