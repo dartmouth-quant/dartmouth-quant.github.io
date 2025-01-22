@@ -1,0 +1,25 @@
+.companies-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.company-logo img {
+    height: 135px;
+}
+
+.company-logo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.overview p {
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.name {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
