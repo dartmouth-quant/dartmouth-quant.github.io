@@ -35,7 +35,8 @@
   filter: contrast(1.1);
   filter: grayscale(.0);
   image-rendering: crisp-edges;
-  
+  object-fit: cover;
+  object-position: top; 
 }
 
 #narrow {

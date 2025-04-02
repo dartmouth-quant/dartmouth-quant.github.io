@@ -1,14 +1,50 @@
 [
-    "Karun Ram '25",
-    "Pratim Chowdhary '25",
-    "Andrea Gao '25",
-    "Allison Zhuang '25",
-    "Goutham Veramachaneni '25",
-    "Charlie Morris '25",
-    "Warren Lai '25",
-    "John Wang '26",
-    "Andy Xu '26",
-    "Connor Zhang '27",
-    "Cathy Cho '27",
-    "Sourjyamoy Barman '26"
+    {
+        "name": "Karun Ram '25",
+        "headshot": "karun.jpeg"
+    },
+    {
+        "name": "Pratim Chowdhary '25",
+        "headshot": "pratim.jpeg"
+    },
+    {
+        "name": "Charlie Morris '25",
+        "headshot": "charlie.jpeg"
+    },
+    {
+        "name": "Allison Zhuang '25",
+        "headshot": "allison.jpeg"
+    },
+    {
+        "name": "Goutham Veramacheneni '25",
+        "headshot": "goutham.jpeg"
+    },
+    {
+        "name": "John Wang '26",
+        "headshot": "john.jpeg"
+    },
+    {
+        "name": "Andy Xu '26",
+        "headshot": "andy.jpeg"
+    },
+    {
+        "name": "Davis Painter '26",
+        "headshot": "davis.jpeg"
+    },
+    {
+        "name": "Connor Zhang '27",
+        "headshot": "connor.jpeg"
+    },
+    {
+        "name": "Elaine Jiao '27",
+        "headshot": "elaine.jpeg"
+    },
+    {
+        "name": "Kiran Spencer '27",
+        "headshot": "kiran.jpeg"
+    },
+    {
+        "name": "Alexander Nanda '27",
+        "headshot": "alex.jpeg"
+    }
 ]
