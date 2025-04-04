@@ -14,9 +14,9 @@
 }
 
 .schedule-header {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
-    color: #004830;
+    /* color: #004830; */
     margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
