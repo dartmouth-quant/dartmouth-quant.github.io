@@ -1,50 +1,18 @@
 [
     {
-        "name": "Karun Ram '25",
-        "headshot": "karun.jpeg"
-    },
-    {
-        "name": "Pratim Chowdhary '25",
-        "headshot": "pratim.jpeg"
-    },
-    {
-        "name": "Charlie Morris '25",
-        "headshot": "charlie.jpeg"
-    },
-    {
-        "name": "Allison Zhuang '25",
-        "headshot": "allison.jpeg"
-    },
-    {
-        "name": "Goutham Veramacheneni '25",
-        "headshot": "goutham.jpeg"
-    },
-    {
-        "name": "John Wang '26",
-        "headshot": "john.jpeg"
-    },
-    {
-        "name": "Andy Xu '26",
-        "headshot": "andy.jpeg"
-    },
-    {
-        "name": "Davis Painter '26",
-        "headshot": "davis.jpeg"
+        "name": "Isabelle Han '26",
+        "headshot": "isabelle.jpg"
     },
     {
         "name": "Connor Zhang '27",
-        "headshot": "connor.jpeg"
+        "headshot": "connor.jpg"
     },
     {
-        "name": "Elaine Jiao '27",
-        "headshot": "elaine.jpeg"
-    },
-    {
-        "name": "Kiran Spencer '27",
-        "headshot": "kiran.jpeg"
-    },
-    {
-        "name": "Alexander Nanda '27",
+        "name": "Alex Chi '27",
         "headshot": "alex.jpeg"
+    },
+    {
+        "name": "Andrew Zhao '28",
+        "headshot": "andrew.png"
     }
 ]
