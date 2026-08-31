@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DQF | Leadership</title>
+  <title>DQF | Sponsors</title>
   <link rel="icon" type="image/png" href="../misc/icon.png" />
   <link rel="stylesheet" href="../styles/common.css" />
-  <link rel="stylesheet" href="../styles/leadership.css" />
+  <link rel="stylesheet" href="../styles/sponsors.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
@@ -27,34 +27,48 @@
       <!-- Navigation Menu -->
       <ul class="navbar-menu header">
         <li><a href="/">Overview</a></li>
-        <li><a href="/pages/leadership.html" id="active-button">Members</a></li>
+        <li><a href="/pages/leadership.html">Members</a></li>
         <li><a href="/pages/alumni.html">Alumni</a></li>
-        <li><a href="/pages/sponsors.html">Sponsors</a></li>
+        <li><a href="/pages/sponsors.html" id="active-button">Sponsors</a></li>
         <li><a href="/pages/resources.html">Resources</a></li>
       </ul>
     </nav>
   </header>
-  <div class="section leadership-section">
+  <main class="section">
     <div class="section-header header">
       <hr class="top-line">
-      Leadership
+      Sponsors
       <hr class="bottom-line">
     </div>
-    <div class="leadership-names" id="leadership-members">
-      
-    </div>
-    <hr class="bottom-line">
-    <div id="profiles-section">
 
-    </div>
-    <div class="section-header header">
-      <hr class="top-line">
-        General Members
-      <hr class="bottom-line">
-    </div>
-    <div class="leadership-names" id="general-members">
-    </div>
-  </div>
+    <p class="sponsors-intro">
+      Dartmouth Quantitative Finance is grateful for the firms that support our members through recruiting events,
+      educational programming, and opportunities to learn directly from industry practitioners.
+    </p>
+
+    <section class="sponsor-tier" aria-labelledby="gold-sponsors">
+      <h2 class="tier-label header" id="gold-sponsors">Gold</h2>
+      <div class="sponsor-grid">
+        <div class="sponsor-card gold">
+          <img src="../images/sponsors/jump.svg" alt="Jump Trading" />
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsor-tier" aria-labelledby="silver-sponsors">
+      <h2 class="tier-label header" id="silver-sponsors">Silver</h2>
+      <div class="sponsor-grid">
+        <div class="sponsor-card silver">
+          <img src="../images/sponsors/susquehanna.png" alt="Susquehanna" />
+        </div>
+      </div>
+    </section>
+
+    <p class="sponsor-note">
+      Interested in partnering with Dartmouth Quantitative Finance? Reach out at
+      <a href="mailto:Dartmouth.Quant.Students.Club@dartmouth.edu">Dartmouth.Quant.Students.Club@dartmouth.edu</a>.
+    </p>
+  </main>
   <footer>
     <div class="footer-content">
       <ul class="footer-links">
@@ -71,8 +85,6 @@
       </ul>
     </div>
   </footer>
-  <br><br><br><br><br>
-  <script src="../scripts/members.js"></script>
 </body>
-</html> 
-  
+
+</html>
