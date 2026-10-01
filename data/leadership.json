@@ -1,7 +1,15 @@
 [
     {
-        "name": "Isabelle Han '26",
-        "headshot": "isabelle.jpg"
+        "name": "Andrew Zhao '28",
+        "headshot": "andrew.png"
+    },
+    {
+        "name": "Jace Sung '29",
+        "headshot": "jace.jpeg"
+    },
+    {
+        "name": "Andy Kim '29",
+        "headshot": "andy.jpeg"
     },
     {
         "name": "Connor Zhang '27",
@@ -10,9 +18,5 @@
     {
         "name": "Alex Chi '27",
         "headshot": "alex.jpeg"
-    },
-    {
-        "name": "Andrew Zhao '28",
-        "headshot": "andrew.png"
     }
 ]

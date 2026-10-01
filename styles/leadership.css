@@ -1,27 +1,41 @@
 .names-row {
   display: flex;
+  justify-content: center;
   margin-top: 25px;
 }
 
 .name {
   position: relative;
-  width: 300px; 
-  margin-left: 16.75px;
-  margin-right: 16.75px;
+  width: 240px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   font-size: 16px;
 }
 
 .profiles-row {
   display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.profile-item {
+  width: 280px;
+  text-align: center;
+}
+
+.profile-item .name {
+  width: 100%;
+  margin: 10px 0 0;
 }
 
 .profile {
   position: relative;
   height: 210px;
   width: 210px; 
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #004830;
 }
 
@@ -41,11 +55,6 @@
 
 #narrow {
   transform: scaleX(1.02);
-}
-
-.profiles-row {
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 .contrast {
